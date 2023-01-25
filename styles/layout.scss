@@ -1,0 +1,30 @@
+$body-header-minheight: 50px !default;
+$body-footer-minheight: 50px !default;
+$body-content-minheight: calc(100% - #{$body-header-minheight} - #{$body-footer-minheight}) !default;
+
+// Clear Body
+body{
+    margin: 0px;
+}
+// Measurements
+
+// Header
+.ma-body-header{
+    color: white;
+    width: 100%;
+    min-height: $body-header-minheight;
+    background-color: black;
+}
+
+// Content
+.ma-body-content{
+    min-height: $body-content-minheight;
+}
+ 
+// Footer
+.ma-body-footer{
+    color: white;
+    width: 100%;
+    min-height: $body-footer-minheight;
+    background-color: black;
+}

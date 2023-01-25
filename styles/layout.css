@@ -1,0 +1,21 @@
+body {
+  margin: 0px;
+}
+
+.ma-body-header {
+  color: white;
+  width: 100%;
+  min-height: 50px;
+  background-color: black;
+}
+
+.ma-body-content {
+  min-height: calc(100% - 50px - 50px);
+}
+
+.ma-body-footer {
+  color: white;
+  width: 100%;
+  min-height: 50px;
+  background-color: black;
+}/*# sourceMappingURL=layout.css.map */
