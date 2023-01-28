@@ -4,7 +4,7 @@
   "description": "EMEY CORP",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": ""
   },
   "author": "",
   "license": "ISC",
